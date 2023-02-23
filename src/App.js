@@ -6,6 +6,7 @@ import Topbar from './scenes/global/Topbar';
 import Sidebar from './scenes/global/Sidebar';
 import Dashboard from './scenes/dashboard';
 import Team from './scenes/team';
+import Contacts from './scenes/contacts';
 
 const App = () => {
     const [theme, colorMode] = useMode();
@@ -20,6 +21,7 @@ const App = () => {
                         <Routes>
                             <Route path='/' element={<Dashboard />} />
                             <Route path='/team' element={<Team />} />
+                            <Route path='/contacts' element={<Contacts />} />
                         </Routes>
                     </main>
                 </div>
