@@ -12,6 +12,7 @@ import Form from './scenes/form';
 import Calendar from './scenes/calendar/calendar';
 import FAQ from './scenes/faq';
 import Bar from './scenes/bar';
+import Pie from './scenes/pie';
 
 const App = () => {
     const [theme, colorMode] = useMode();
@@ -32,6 +33,7 @@ const App = () => {
                             <Route path='/calendar' element={<Calendar />} />
                             <Route path='/faq' element={<FAQ />} />
                             <Route path='/bar' element={<Bar />} />
+                            <Route path='/pie' element={<Pie />} />
                         </Routes>
                     </main>
                 </div>
