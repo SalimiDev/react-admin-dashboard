@@ -13,6 +13,7 @@ import Calendar from './scenes/calendar/calendar';
 import FAQ from './scenes/faq';
 import Bar from './scenes/bar';
 import Pie from './scenes/pie';
+import Line from './scenes/line';
 
 const App = () => {
     const [theme, colorMode] = useMode();
@@ -34,6 +35,7 @@ const App = () => {
                             <Route path='/faq' element={<FAQ />} />
                             <Route path='/bar' element={<Bar />} />
                             <Route path='/pie' element={<Pie />} />
+                            <Route path='/line' element={<Line />} />
                         </Routes>
                     </main>
                 </div>
