@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { ProSidebar, Menu, MenuItem } from 'react-pro-sidebar';
+import userImg from '../../assets/userImg.jpg';
 import 'react-pro-sidebar/dist/css/styles.css';
 import { Box, IconButton, Typography, useTheme } from '@mui/material';
 import { tokens } from '../../theme';
@@ -91,7 +92,7 @@ const Sidebar = () => {
                                     alt='profile-user'
                                     width='100px'
                                     height='100px'
-                                    src={`../../assets/userImg.jpg`}
+                                    src={userImg}
                                     style={{ cursor: 'pointer', borderRadius: '50%' }}
                                 />
                             </Box>
