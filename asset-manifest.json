@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react-admin-dashboard/static/css/main.5a398a79.css",
-    "main.js": "/react-admin-dashboard/static/js/main.b5113af0.js",
+    "main.js": "/react-admin-dashboard/static/js/main.f6ae1843.js",
     "static/media/userImg.jpg": "/react-admin-dashboard/static/media/userImg.949ec7d85916ce052117.jpg",
     "index.html": "/react-admin-dashboard/index.html",
     "main.5a398a79.css.map": "/react-admin-dashboard/static/css/main.5a398a79.css.map",
-    "main.b5113af0.js.map": "/react-admin-dashboard/static/js/main.b5113af0.js.map"
+    "main.f6ae1843.js.map": "/react-admin-dashboard/static/js/main.f6ae1843.js.map"
   },
   "entrypoints": [
     "static/css/main.5a398a79.css",
-    "static/js/main.b5113af0.js"
+    "static/js/main.f6ae1843.js"
   ]
 }
